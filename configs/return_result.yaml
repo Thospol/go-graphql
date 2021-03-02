@@ -1,0 +1,50 @@
+invalid_request:
+  code: 1000
+  localization:
+    en: "The request is invalid Please try again"
+    th: "การร้องขอข้อมูลผิด กรุณาลองใหม่อีกครั้ง"
+
+invalid_token:
+  code: 1002
+  localization:
+    en: "Sorry invalid token. Please try again"
+    th: "โทเค็นไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+json_duplicate_or_invalid_format:
+  code: 1003
+  localization:
+    en: "Json field duplicate or invalid format. Please try again"
+    th: "Json มีคีย์ซ้ำกันหรือรูปแบบฟอร์เมตผิด กรุณาลองใหม่อีกครั้ง"
+
+
+# These are what we response to our internal services
+internal:
+  success:
+    code: 0
+    localization:
+      en: "Success"
+      th: "สำเร็จ"
+
+  bad_request:
+    code: 400
+    localization:
+      en: "System cannot process this request at the moment. Please try again later"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+
+  connection_error:
+    code: 500
+    localization:
+      en: "Connection error. Please try again"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+
+  database_not_found:
+    code: 404
+    localization:
+      en: "Database not found. Please try again"
+      th: "ขออภัย ไม่พบข้อมูลในระบบ กรุณาลองใหม่อีกครั้ง"
+
+  unauthorized:
+    code: 401
+    localization:
+      en: "this request at the moment. Please try again later"
+      th: "ขออภัย ระบบไม่อนุญาตให้คุณเข้าถึงการร้องขอได้ กรุณาลองใหม่อีกครั้ง"

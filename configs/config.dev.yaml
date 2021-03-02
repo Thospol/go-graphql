@@ -1,0 +1,27 @@
+app:
+  project_name: "graphql"
+  web_base_url: "https://dev.graphql.com"
+  api_base_url: "localhost:8000/api"
+  version: "v1"
+  release: false
+  port: 8000
+
+http_server:
+  read_timeout: 10s
+  write_timeout: 10s
+  read_header_timeout: 10s
+
+postgre_sql:
+  host: "34.87.20.50"
+  port: "5432"
+  username: "workkami"
+  password: "2aykHw4DWx9o"
+  database_name: "workkami"
+  driver_name: "postgres"
+
+jwt:
+  secret_key: "graphql_jwt_secret"
+  expire_time:
+    day: 1
+    hour: 0
+    minute: 0

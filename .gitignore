@@ -1,0 +1,8 @@
+.vscode/launch.json
+.vscode/settings.json
+/.idea/
+/docs
+*.csv
+/*.html
+/*.xml
+venv/
